@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PetyaKatsarova/softUni_js_fundamentals_workshop_37-/issues"
   },
-  "homepage": "https://github.com/PetyaKatsarova/softUni_js_fundamentals_workshop_37-#readme"
+  "homepage": "https://github.com/PetyaKatsarova/softUni_js_fundamentals_workshop_37-#readme",
+  "dependencies": {
+    "express-handlebars": "^5.3.2"
+  }
 }

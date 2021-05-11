@@ -2,6 +2,13 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+const handlebars = require('express-handlebars');
+app.engine('hbs', handlebars());
+app.set('view engine', {
+   partialsDir: './views',
+   extname: '.hbs'
+});
+
 // on req by client get: 
 app.get('/', function(req,res){
    res.send("Hello W!");
